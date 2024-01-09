@@ -1,2 +1,4 @@
-# Excel
-NFL Stats Analysis
+# NFL 2023 Regular Season Stats
+The 2023_NFL_Stats zip folder has "raw" and "clean" Excel workbooks. The "raw" version contains all team's standings and offensive/defensive statistics after Week 18 that were scraped from the NFL's website. The "clean" workbook utilizes Power Query to pull in the "raw" data, clean it, and output it in individual sheets to analyze standings, passing offense, rushing offense, passing defense, and rushing defense. A separate sheet retrieves the ranks for each team from the passing and rushing sheets and averages them to provide overall ranks within the league. Moreover, the passing and rushing sheets apply conditional formatting for every metric to show which teams are the best (green) and worst (red), and which are above league average (gold) and below average (gray).
+
+The ranking columns in each sheet also have conditional formatting to quickly show the top 10 teams in light green fill and the bottom 10 in light red fill. There are bar graphs to visually display the rankings in descending order. Additionally, the standings sheet calculates expected win percentage, wins, and losses within Power Query; as well as, lists the top seven teams in each conference as "expected" playoff teams.
